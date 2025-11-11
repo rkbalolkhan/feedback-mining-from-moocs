@@ -1,15 +1,21 @@
-# Feedback Mining from MOOCs 🎓
+# 🎓 Feedback Mining from MOOCs
 
-This project applies Machine Learning and Natural Language Processing (NLP) to analyze student feedback from Massive Open Online Courses (MOOCs) and extract meaningful sentiment insights.
+This project applies **Machine Learning (ML)** and **Natural Language Processing (NLP)** to analyze student feedback from **Massive Open Online Courses (MOOCs)** and extract meaningful sentiment insights.
+
+---
 
 ## 📘 Features
-- Sentiment analysis (positive/negative/neutral)
-- TF-IDF feature extraction
-- Logistic Regression & Naive Bayes models
-- Visualizations: Word clouds, sentiment distributions
+
+- 🧠 Sentiment Analysis (Positive / Negative / Neutral)  
+- 🔤 TF-IDF Feature Extraction  
+- 🤖 Logistic Regression & Naive Bayes Models  
+- 📊 Visualizations: Word Clouds, Sentiment Distributions  
+
+---
 
 ## 🧩 Directory Structure
 
+```
 feedback-mining-from-moocs/
 │
 ├── data/
@@ -45,3 +51,74 @@ feedback-mining-from-moocs/
 ├── requirements.txt                      # Python dependencies
 ├── README.md                             # Project overview and setup guide
 └── .gitignore                            # Ignore data/models when using Git
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/rkbalolkhan/feedback-mining-from-moocs.git
+cd feedback-mining-from-moocs
+```
+
+### 2️⃣ (Optional) Create Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate   # For Mac/Linux
+venv\Scripts\activate      # For Windows
+```
+
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Add Dataset
+Place your dataset (e.g. `coursera_reviews.csv`) inside:
+```
+data/raw/
+```
+
+---
+
+## 🧠 About the Project
+
+This repository contains the complete workflow for **Feedback Mining from MOOCs**, which involves:
+- Data preprocessing (cleaning, tokenization, lemmatization)
+- Feature extraction using TF-IDF
+- Model training using Logistic Regression & Naive Bayes
+- Performance evaluation & visualization
+
+The goal is to extract meaningful **sentiment insights** from learner feedback to improve course quality and instructor performance.
+
+---
+
+## 🧩 Future Work
+
+- Implement **Aspect-Based Sentiment Analysis (ABSA)**  
+- Integrate **Transformer Models** (BERT, RoBERTa)  
+- Deploy as an interactive **Streamlit web app**  
+- Add **Topic Modeling** (LDA) for feedback clustering  
+
+---
+
+## 👨‍💻 Author
+
+**Rahematullah Balolkhan**  
+B.Tech CSE — Lovely Professional University  
+Full Stack Developer | Machine Learning Enthusiast  
+
+🌐 [LinkedIn](https://www.linkedin.com/in/rkbalolkhan/)  
+📸 [Instagram](https://www.instagram.com/rk.balolkhan)
+
+---
+
+## 🪪 License
+
+This project is licensed under the **MIT License** — you’re free to use, modify, and distribute it with proper attribution.
+
+---
+
+> _"Data becomes knowledge only when it speaks — this project lets learner feedback speak clearly."_ 💡
